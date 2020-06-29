@@ -1,0 +1,45 @@
+import java.utl*
+class veh rent
+{
+private int driver charge per day;
+private int per day rent
+public void get ip()
+{
+system.out.println("Enter driver charge");
+scanner sc =new scanner (system.in);
+int driver charge per day=sc.next Int();
+system.out.println("enter per day rent");
+int per day rent=sc.next Int();
+}
+public void output()
+{
+ system.out.println ("driver's charge: "+driver charge per day);
+ system.out.println("per day rent:"+per day rent);
+ }
+ };
+ class calculate : Public veh rent
+  Private int no of days;
+  Private int km it rides;
+  Private int per Km charge;
+  Public void input()
+  {
+  system.out.println("Enter No.of days");
+  scanner.s=new scanner(system.int);
+  int.no.of days=s.nextInt();
+  system.out.println("Enter km it rides");
+  int km it rides=S.next Int();
+  system.out.println("Enter per Km charge");
+  int per km charge=S.nextInt();
+  }
+  Public void cal()
+  {
+  float tf;
+  tf=float(((Driver charge per day+Per day rent)*No of days + Km it rides *per km charge))
+  }
+  Public void show();
+  {
+  system.out println("Enter L");
+  Scanner S1=new scanner (system.in);
+  int c=S1.next Int();
+  }
+  }
